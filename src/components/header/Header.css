@@ -1,0 +1,267 @@
+
+.header {
+    width: 100%;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.header-main {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main-left {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.header-main-left-courses {
+    font-size: 2rem;
+}
+
+.header-main-left-courses p {
+    margin: 0;
+}
+
+.header-main-left-search {
+    height: 90%;
+    width: 60%;
+    border: 0.1rem black solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.header-main-left-search input {
+    width: 100%;
+    height: 2.25rem;
+    outline: none;
+    border: none;
+    /* border: 0.1rem black solid;
+    border-radius: 0.5rem; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.header-main-left-search input::placeholder {
+    font-size: 1.75rem;
+    color: blue;
+    font-weight: 500;
+}
+
+.header-main-logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-main-logo img {
+    width: 100%;
+    background-color: white;
+}
+
+.header-main-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-main-right-item button {
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    background: transparent;
+    color: blue;
+    cursor: pointer;
+}
+
+.header-main-right-item p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: blue;
+}
+
+hr {
+    width: 99%;
+    margin: 0;
+}
+
+.header-main-logo-none {
+    display: none;
+}
+
+.header-main-logo-mobile {
+    display: none;
+}
+
+
+.menu-options {
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-option-options {
+    color: blue;
+    text-decoration: none;
+    transition: 0.2s linear;
+    border-bottom: 0.3rem solid white;
+}
+
+.active-menu {
+    border-bottom: 0.3rem solid #ed7203;
+}
+
+.header-logo {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hamburger-menu a {
+    color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 10rem;
+    }
+
+    .header-logo {
+        width: 20%;
+    }
+
+    .header-logo img {
+        width: 100%;
+    }
+
+    .menu-options {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-main {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: inline-block;
+    }
+
+    .menu-options {
+        display: none;
+    }
+
+    header {
+        width: 80%;
+        justify-content: space-between;
+        padding: 0 10%;
+        flex-direction: row;
+    }
+
+    .header-logo {
+        display: inline-block;
+        width: 30%;
+    }
+
+    .mobile-menu-options {
+        position: fixed;
+        width: 40%;
+        height: 40rem;
+        top: 5rem;
+        right: 0;
+        background: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        z-index: 10000;
+        padding-right: 5%;
+        border: 0.2rem solid #ed7203;
+        border-top: 0;
+        border-radius: 0 0 1rem 1rem;
+        box-shadow: 0.3rem 1.5rem 1rem rgba(0, 0, 0, 0.3);
+    }
+
+    .menu-option-options {
+        font-size: 3rem;
+    }
+
+    /* .header-main-logo-mobile {
+        display: inline-block;
+    } */
+    .header-main {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header-main-left {
+        width: 100%;
+        height: 30%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header-main-left-search {
+        height: 30%;
+    }
+    
+
+    .header-main-logo {
+        display: none;
+    }
+    
+    .header-main-right {
+        height: 40%;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header-main-right-item button {
+        font-size: 2rem;
+    }
+    
+}
+
+@media only screen and (max-width: 468px) {
+    .header-logo {
+        width: 50%;
+    }
+
+    .mobile-menu-options {
+        position: fixed;
+        width: 60%;
+        height: 40rem;
+    }
+
+    .menu-option-options {
+        font-size: 2rem;
+    }
+
+    .mobile-menu-options {
+        position: fixed;
+        width: 70%;
+        height: 40rem;
+        top: 9rem;
+    }
+}

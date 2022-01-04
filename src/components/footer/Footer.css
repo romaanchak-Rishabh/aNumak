@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 10.0rem;
+  /* padding: 2.0rem 5.0rem; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10rem;
+  padding-bottom: 2rem;
+  z-index: 50;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 1.0rem 0; */
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 1.0rem;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-1.0rem);
+}
+
+.menu__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 1.0rem;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 1.5rem 0 1.0rem 0;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -10.0rem;
+  left: 0;
+  width: 100%;
+  height: 10.0rem;
+  background: url("https://i.ibb.co/wQZVxxk/wave.png");
+  background-size: 100.0rem 10.0rem;
+}
+
+.wave#wave1 {
+  z-index: 100;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 99;
+  opacity: 0.5;
+  bottom: 1.0rem;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 100;
+  opacity: 0.2;
+  bottom: 1.5rem;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 99;
+  opacity: 0.7;
+  bottom: 2.0rem;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 100.0rem;
+  }
+  100% {
+    background-positon-x: .0rem;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -100.0rem;
+  }
+  100% {
+    background-positon-x: .0rem;
+  }
+}
