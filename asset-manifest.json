@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "./static/css/main.fd57b308.chunk.css",
+    "main.js": "./static/js/main.0a943d37.chunk.js",
+    "main.js.map": "./static/js/main.0a943d37.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6d4e443b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6d4e443b.js.map",
+    "static/css/2.ed1298f3.chunk.css": "./static/css/2.ed1298f3.chunk.css",
+    "static/js/2.678e9db4.chunk.js": "./static/js/2.678e9db4.chunk.js",
+    "static/js/2.678e9db4.chunk.js.map": "./static/js/2.678e9db4.chunk.js.map",
+    "static/js/3.0804552d.chunk.js": "./static/js/3.0804552d.chunk.js",
+    "static/js/3.0804552d.chunk.js.map": "./static/js/3.0804552d.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.ed1298f3.chunk.css.map": "./static/css/2.ed1298f3.chunk.css.map",
+    "static/css/main.fd57b308.chunk.css.map": "./static/css/main.fd57b308.chunk.css.map",
+    "static/js/2.678e9db4.chunk.js.LICENSE.txt": "./static/js/2.678e9db4.chunk.js.LICENSE.txt",
+    "static/media/1.2993d31b.jpeg": "./static/media/1.2993d31b.jpeg",
+    "static/media/2.99f81500.jpeg": "./static/media/2.99f81500.jpeg",
+    "static/media/3.6a72f62e.jpeg": "./static/media/3.6a72f62e.jpeg",
+    "static/media/4.2cb13ed5.jpeg": "./static/media/4.2cb13ed5.jpeg",
+    "static/media/Ananlystics_Teamwork_01_generated.ee29888a.jpg": "./static/media/Ananlystics_Teamwork_01_generated.ee29888a.jpg",
+    "static/media/i1.bec28449.jpg": "./static/media/i1.bec28449.jpg",
+    "static/media/i2.5c5e9fcf.jpg": "./static/media/i2.5c5e9fcf.jpg",
+    "static/media/i3.9f5a98b7.jpg": "./static/media/i3.9f5a98b7.jpg",
+    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg",
+    "static/media/students.940ee9ef.jpeg": "./static/media/students.940ee9ef.jpeg",
+    "static/media/t1.f55cbb94.jpeg": "./static/media/t1.f55cbb94.jpeg",
+    "static/media/t2.7195bfee.jpeg": "./static/media/t2.7195bfee.jpeg",
+    "static/media/t3.0b00c379.jpeg": "./static/media/t3.0b00c379.jpeg",
+    "static/media/teachers.a6bd5ac5.jpeg": "./static/media/teachers.a6bd5ac5.jpeg",
+    "static/media/opening.css": "./static/media/wave5.59fa2141.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d4e443b.js",
+    "static/css/2.ed1298f3.chunk.css",
+    "static/js/2.678e9db4.chunk.js",
+    "static/css/main.fd57b308.chunk.css",
+    "static/js/main.0a943d37.chunk.js"
+  ]
+}
